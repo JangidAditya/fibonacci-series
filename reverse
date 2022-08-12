@@ -1,0 +1,4 @@
+# reverse of the give string
+string = input("Enter the String: ")
+rs = string[::-1]
+print(f"{string}\n{rs}")
