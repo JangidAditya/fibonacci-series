@@ -1,0 +1,19 @@
+# Fibonacci Series  
+# 0,1,2,3,5,8,......
+
+n = int(input("Enter the number of series: "))
+def fibonacci_series(n):
+    if n <= 0:
+        print("plase enter the positive number.")
+    elif n == 1 :
+        print("Enter the valid number.")
+    else:
+        x,y = 0,1
+        count = 0
+        for i in range(0,n+0):
+            print(x)
+            count = x + y
+            x = y 
+            y = count
+
+fibonacci_series(n)
