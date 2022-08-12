@@ -1,0 +1,11 @@
+def max_min(list_of_number):
+    largest_number = 0
+    smolest_number = 0
+    for i in list_of_number:
+        if i > largest_number:
+            largest_number = i
+        if i < smolest_number:
+            smolest_number = i
+    print(f"max: {largest_number}\nmin:{smolest_number}")
+
+max_min([1,2,10,4,5,-6,-5,4])
