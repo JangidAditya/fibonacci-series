@@ -1,0 +1,16 @@
+# palindrome or not_palindrome
+# The palindrome means right to left and left to ringt word same befour and after reversing.
+# kamal ---- lamak (it is not palindrom)
+# joj   ---- joj (it is palindrom)
+
+# string = "joj"
+# print(string[::-1] == string)
+
+string = input("Enter the string or number to check palindrome or not: ")
+def palindrome_or_not(string):
+    rs = string[::-1]
+    if rs == string:
+        print(f"{string} is palindrome")
+    else:
+        print(f"{string} is not palindrome")
+palindrome_or_not(string)
